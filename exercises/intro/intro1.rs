@@ -10,9 +10,9 @@ fn main() {
     println!("       welcome to...                      ");
     println!("                 _   _ _                  ");
     println!("  _ __ _   _ ___| |_| (_)_ __   __ _ ___  ");
-    println!(" | '__| | | / __| __| | | '_ \ / _` / __| ");
-    println!(" | |  | |_| \__ \ |_| | | | | | (_| \__ \ ");
-    println!(" |_|   \__,_|___/\__|_|_|_| |_|\__, |___/ ");
+    println!(" | '__| | | / __| __| | | '_ \\ / _` / __| ");
+    println!(" | |  | |_| \\__ \\ |_| | | | | | (_| \\__ \\ ");
+    println!(" |_|   \\__,_|___/\\__|_|_|_| |_|\\__, |___/ ");
     println!("                               |___/      ");
     println!();
     println!("This exercise compiles successfully. The remaining exercises contain a compiler");
