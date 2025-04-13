@@ -9,7 +9,7 @@
 fn main() {
     let my_option: Option<()> = None;
     if my_option.is_none() {
-        panic!("None");
+        panic!("Option was None");
     }
 
     let my_arr = &[
@@ -18,8 +18,9 @@ fn main() {
     ];
     println!("My array! Here it is: {:?}", my_arr);
 
-    vec![1, 2, 3, 4, 5].resize(0, 5);
-    println!("This Vec is empty, see? {:?}", ());
+    let mut my_vec = vec![1, 2, 3, 4, 5];
+    my_vec.clear();
+    println!("This Vec is empty, see? {:?}", my_vec);
 
     let mut value_a = 45;
     let mut value_b = 66;
