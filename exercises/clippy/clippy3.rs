@@ -11,7 +11,7 @@ fn main() {
     
     match my_option{
         Some(x) => x,
-        None => panic!("None"),
+        None => println!("None"),
     }
     
 
